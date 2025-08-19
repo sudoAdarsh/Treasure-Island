@@ -1,19 +1,20 @@
 # Treasure Island: The Awakening
 
-A text-based adventure game written in Python.  
-Embark on a cinematic journey where your choices decide your fate. Will you uncover the treasure, or fall victim to the island’s perils?
+A cinematic, text-based adventure game written in Python.  
+Embark on a journey full of choices, suspense, and danger. Will you uncover the legendary treasure or meet a grim fate on the island?
 
 ---
 
 ## Overview
 
-This is a simple yet immersive **command-line adventure game** featuring:
+This is an immersive **command-line adventure game** featuring:
 
 - ASCII art logo with dramatic reveal
 - Typing-effect text for a cinematic experience
-- Multiple decision paths leading to victory or failure
-- Replayability with branching choices
-- Lightweight — runs in any terminal
+- Multiple decision scenes: Crossroad, Misty Lake, and the Three Doors
+- Branching story paths with different endings (win or game over)
+- Option to restart the game at any point by typing `"restart"`
+- Lightweight — runs in any terminal without external libraries
 
 ---
 
@@ -22,7 +23,7 @@ This is a simple yet immersive **command-line adventure game** featuring:
 - Python **3.7 or newer**
 - Works on Windows, Linux, or macOS (uses `os.system` for clearing screen)
 
-No external libraries required.
+No external libraries are required.
 
 ---
 
@@ -41,24 +42,30 @@ No external libraries required.
    python treasure_island.py
    ```
 
-3. Follow the on-screen prompts and type your choices:
-   - Example: `"left"` or `"right"`, `"wait"` or `"swim"`, etc.
-
 ---
 
-## Controls
+## Game Scenes & Controls
 
-- **Y/n** → Start or quit the adventure
-- **Choices** → Type your path decisions (case-insensitive)
-- **Replay** → Restart by running the script again
+### Scenes
+
+1. **Crossroad** – Choose between the left forest path or the right cliff path.
+2. **Misty Lake** – Decide whether to wait for a boat or swim across.
+3. **Three Doors** – Pick the Red, Blue, or Green door to determine your fate.
+
+### Controls
+
+- **Typing choices** → Type the exact option displayed (case-insensitive)
+- **Restart** → Type `"restart"` anytime to begin from the first scene
+- **Replay** → Run the script again to replay the game
 
 ---
 
 ## Notes
 
-- Game includes **ASCII art intro** (inspired by _Treasure Island_ theme).
+- Game includes **ASCII art intro** for a cinematic effect.
 - Decisions are **branch-based** — one wrong choice leads to `Game Over`.
-- Easily extendable: add more story branches or custom endings.
+- The game prints messages with **dynamic typing effect** for better immersion.
+- Easily extendable: add more scenes, doors, or endings to expand the adventure.
 
 ---
 
