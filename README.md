@@ -39,7 +39,7 @@ No external libraries are required.
 2. Run the game:
 
    ```bash
-   python treasure_island.py
+   python main.py
    ```
 
 ---
