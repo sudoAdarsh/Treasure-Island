@@ -33,7 +33,7 @@ No external libraries are required.
 
    ```bash
    git clone https://github.com/yourusername/treasure-island.git
-   cd treasure-island
+   cd Treasure-Island
    ```
 
 2. Run the game:
